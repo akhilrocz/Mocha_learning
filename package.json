@@ -2,16 +2,19 @@
   "name": "mocha-testing-demo",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "chai": "^5.2.1",
     "mocha": "^11.7.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
 }
